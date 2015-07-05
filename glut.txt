@@ -1,0 +1,23 @@
+-lGL
+-lGLU
+-lglut
+-lpthread
+
+Si fuera windows -> dll 
+
+-lopengl32
+-lglu32
+-lglut32
+
+
+1. Descargar glut-3.7.6-bin.zip en el siguiente enlace: 
+   https://code.google.com/p/rawvideoplayer/downloads/detail?name=glut-3.7.6-bin.zip&can=2&q=
+2. Dentro del archivo glut-3.7.6-bin.zip esta la carpeta glut-3.7.6-bin, dentro de esa carpeta hay 5 
+   archivos, entre ellos están: glut.h, glut32.dll y glut32.lib. 
+3. Hacer lo siguiente con esos tres archivos:
+3.1 Agregar glut32.lib a la carpeta C:\MinGW\lib, o si esta instalado en otro directorio: %INSTALACIONDEMINGW%\lib
+3.2 Agregar glut32.h a la carpeta C:\MinGW\include\GL, o si esta instalado en otro directorio: %INSTALACIONDEMINGW%\include\GL
+3.3 Agregar glut32.dll a la carpeta del proyecto.
+
+
+

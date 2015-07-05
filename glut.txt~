@@ -1,0 +1,10 @@
+-lGL
+-lGLU
+-lglut
+-lpthread
+
+Si fuera windows -> dll 
+
+-lopengl32
+-lglu32
+-lglut32
